@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Limkokwing University",
+    "slug": "limkokwing-prospectus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A1A2E"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.limkokwing.prospectus"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1A1A2E"
+      },
+      "package": "com.limkokwing.prospectus"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
