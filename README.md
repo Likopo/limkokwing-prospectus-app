@@ -13,7 +13,7 @@ A React Native **Expo** app for Limkokwing University of Creative Technology.
 
 ---
 
-## 🚀 How to Run (3 steps)
+##  How to Run (3 steps)
 
 ### Step 1 — Install dependencies
 Open a terminal in this folder and run:
@@ -30,7 +30,7 @@ npx expo start
 
 This will show a **QR code** in your terminal.
 
-### Step 3 — Open on your device
+ Step 3 — Open on your device
 
 - **Android phone:** Open the **Expo Go** app → tap "Scan QR Code" → scan
 - **iPhone:** Open the **Camera app** → scan the QR code → tap the notification
@@ -41,7 +41,7 @@ This will show a **QR code** in your terminal.
 
 ---
 
-## 📁 Project Structure
+ 📁 Project Structure
 
 ```
 LimkokwingExpo/
@@ -56,7 +56,7 @@ LimkokwingExpo/
     ├── screens/
     │   ├── HomeScreen.js           ← Faculty list + hero
     │   ├── FacultyScreen.js        ← Courses under a faculty
-    │   ├── CourseDetailScreen.js   ← Course info + ⭐ rating system
+    │   ├── CourseDetailScreen.js   ← Course info +  rating system
     │   └── QuizScreen.js          ← Career guide quiz
     └── theme/
         └── index.js               ← Colors, spacing, radii
@@ -64,9 +64,9 @@ LimkokwingExpo/
 
 ---
 
-## 🏫 Faculties & Courses
+ Faculties & Courses
 
-| # | Faculty | Courses |
+|  | Faculty | Courses |
 |---|---------|---------|
 | 1 | 🎨 Design Innovation | Creative Advertising, Graphic Design, Fashion, Interior, Product Design |
 | 2 | 📡 Communication, Media & Broadcasting | Prof. Communication, Broadcasting & Journalism, TV & Film, PR, Journalism |
@@ -76,7 +76,7 @@ LimkokwingExpo/
 
 ---
 
-## ⭐ Rating System Rules
+ Rating System Rules
 
 | Rule | Detail |
 |------|--------|
@@ -88,7 +88,7 @@ LimkokwingExpo/
 
 ---
 
-## 🎯 Career Quiz
+ Career Quiz
 
 - 5 questions covering interests, subjects, career goals, and working style
 - Each answer maps to one or more faculty IDs
@@ -97,24 +97,7 @@ LimkokwingExpo/
 
 ---
 
-## 🔧 Troubleshooting
 
-**"Unable to find expo in this project"**  
-→ Make sure you ran `npm install` first, then use `npx expo start`
-
-**Slow / crashes on first load**  
-→ Try `npx expo start --clear` to clear the Metro bundler cache
-
-**QR code won't scan**  
-→ Make sure your phone and computer are on the **same Wi-Fi network**
-
-**Port conflict error**  
-→ Run `npx expo start --port 8082`
 
 ---
 
-## 📞 University Contact
-
-- 📍 Moshoeshoe Road, Maseru Central, PO Box 8971, Maseru 100, Lesotho  
-- 📞 +266 2231 5767  ·  Toll Free: 80022066  
-- 🌐 www.limkokwing.ac.ls
